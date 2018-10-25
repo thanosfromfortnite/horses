@@ -6,6 +6,7 @@ public class HorseBarn {
     public HorseBarn(Horse[] spaces) {
         this.spaces = spaces;
     }
+
     public int findHorseSpace(String name) {
         for (int i = 0; i < this.spaces.length; i ++) {
             if (this.spaces[i] != null && this.spaces[i].getName().equals(name)) {

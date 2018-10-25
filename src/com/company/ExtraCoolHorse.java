@@ -1,9 +1,9 @@
 package com.company;
 
-public class CoolerHorse implements Horse {
+public class ExtraCoolHorse implements Horse {
     private String name; private int weight;
 
-    public CoolerHorse(String name, int weight) {
+    public ExtraCoolHorse(String name, int weight) {
         this.name = name;
         this.weight = weight;
     }
